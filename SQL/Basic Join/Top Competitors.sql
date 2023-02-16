@@ -1,3 +1,4 @@
+# Author: Sarthak
 SELECT H.hacker_id, 
        H.name 
 FROM   submissions S 

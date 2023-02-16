@@ -1,3 +1,5 @@
+# Author: Sarthak
+
 SELECT a.id, 
        b.age, 
        a.coins_needed, 

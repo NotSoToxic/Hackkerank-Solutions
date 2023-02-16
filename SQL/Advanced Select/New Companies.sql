@@ -1,3 +1,5 @@
+# Author: Sarthak
+
 SELECT c.company_code,c.founder,
 count(distinct lm.lead_manager_code),
 count(distinct sm.senior_manager_code),

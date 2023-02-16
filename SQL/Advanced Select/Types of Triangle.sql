@@ -1,3 +1,5 @@
+# Author: Sarthak
+
 Select 
 CASE
 when A + B <= C or A + C <= B or B + C <= A then "Not A Triangle"

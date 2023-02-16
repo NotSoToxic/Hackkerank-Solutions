@@ -1,3 +1,5 @@
+# Author: Sarthak
+
 Select S.Name
 from Students S inner join Friends f
 on S.ID = f.ID

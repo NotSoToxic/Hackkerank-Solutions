@@ -1,3 +1,5 @@
+# Author: Sarthak
+
 SELECT CASE
          WHEN G.grade > 7 THEN S.name
          ELSE NULL

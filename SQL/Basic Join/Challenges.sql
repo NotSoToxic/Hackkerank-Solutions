@@ -1,3 +1,5 @@
+# Author: Sarthak
+
 select H.hacker_id, H.name, count(C.challenge_id) as total_count
 from Hackers H join Challenges C
 on H.hacker_id = C.hacker_id

@@ -1,3 +1,5 @@
+# Author: Sarthak
+
 select concat(name,'(',substring(Occupation,1,1),')') as Name 
 from occupations 
 order by Name;

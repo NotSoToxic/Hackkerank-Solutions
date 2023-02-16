@@ -1,3 +1,5 @@
+# Author: Sarthak
+
 SELECT h.hacker_id, h.name, SUM(MAX_SCORE.t1) as total_score
 FROM Hackers h inner join 
 (
