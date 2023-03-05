@@ -1,0 +1,4 @@
+# Author: Sarthak
+
+SELECT FLOOR(AVG(POPULATION))
+FROM CITY
