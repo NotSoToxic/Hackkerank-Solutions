@@ -15,5 +15,5 @@ WHERE  b.is_evil = 0
                              WHERE  b.age = b1.age 
                                     AND a.power = a1.power) 
 ORDER  BY a.power DESC, 
-#short form 
+
           b.age DESC; 
