@@ -23,3 +23,4 @@ group by H2.hacker_id, H2.name
     group by other_counts
 having count(other_counts) =1)
 order by total_count desc, H.hacker_id
+
