@@ -1,5 +1,3 @@
-if__name__ == '__main__':
-
 a = int(input())
 b = int(input())
 

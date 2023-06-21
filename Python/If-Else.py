@@ -1,13 +1,8 @@
-import math
-import os
-import random
-import re
-import sys
-
-def random(n):
-    if n%2==1 or 6<=n<=20:
-        print("Random!")
-    else:
-        print("Not Random!")
-
-random(int(input()))
+n = int(input().strip())
+    
+if n % 2 == 1:
+    print('Weird') 
+elif n % 2 == 0 and n >= 6 and n <= 20:
+    print('Weird')
+else:
+    print('Not Weird')
