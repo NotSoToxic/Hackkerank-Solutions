@@ -12,4 +12,3 @@ def average_student(query_name):
         if clave==query_name:
             print("{:.2f}".format(sum(valor)/len(valor)))
 average_student(query_name)
-    
